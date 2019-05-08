@@ -32,6 +32,12 @@ class User:
         '''
         User.users_list.remove(self)
 
-    
-
-    
+    def find_user(self, uname):
+        '''
+        Function that check if a user exists with that username and return a Boolean
+        '''
+        
+        listdata = User.users_list
+        for item in listdata:
+            if uname in item.values():
+                return item
