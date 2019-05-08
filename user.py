@@ -19,3 +19,11 @@ class User:
         '''
         new_user = User( uname, email, pword)
         return new_user
+
+    def save_user(self):
+        '''
+        save user method saves user objects into user_list
+        '''
+        User.users_list.append(self)
+
+    
