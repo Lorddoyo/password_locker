@@ -22,8 +22,16 @@ class User:
 
     def save_user(self):
         '''
-        save user method saves user objects into user_list
+        save_user method saves user objects into user_list
         '''
         User.users_list.append(self)
+
+    def delete_contact(self):
+        '''
+        delete_user method deletes a saved user from the user_list
+        '''
+        User.user_list.remove(self)
+
+    
 
     
