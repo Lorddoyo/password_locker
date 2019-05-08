@@ -30,7 +30,7 @@ class User:
         '''
         delete_user method deletes a saved user from the user_list
         '''
-        User.user_list.remove(self)
+        User.users_list.remove(self)
 
     
 
