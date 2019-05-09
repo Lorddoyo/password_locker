@@ -26,7 +26,7 @@ class User:
         '''
         User.users_list.append(self)
 
-    def delete_contact(self):
+    def delete_user(self):
         '''
         delete_user method deletes a saved user from the user_list
         '''
@@ -39,5 +39,5 @@ class User:
         
         listdata = User.users_list
         for item in listdata:
-            if uname in item.values():
+            if uname in item['uname']:
                 return item
