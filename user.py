@@ -1,32 +1,26 @@
-
 class User:
     users_list = []
     '''
     Class that generates new instances of contacts 
     '''
-    def __init__(self, username, email, password):
+    def __init__(self, username, email, password, credentials):
         '''
         function to intialize class
         '''
         self.uname = username
         self.email = email
         self.pword = password
+        self.credentials = []
 
 
-    def createUser(self, uname, email, pword):
-        '''
-        Function to create new user
-
-        '''
-        new_user = User( uname, email, pword)
-        return new_user
 
     def save_user(self):
         '''
         save_user method saves user objects into user_list
         '''
         User.users_list.append(self)
-
+        
+        
     def delete_user(self):
         '''
         delete_user method deletes a saved user from the user_list
