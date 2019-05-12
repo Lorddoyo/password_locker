@@ -76,7 +76,7 @@ def login():
         if password == account.pword:
             while True:
                 print('**** you are currently loged in as {} *****\n'.format(uname))
-                print('**** what would you like to do *****\ntype "e" to sign out, type "l" to list credentials, type "a" to add credentials\n')
+                print('**** what would you like to do *****\ntype "e" to sign out, type "l" to list credentials, type "d" to delete credentials type "a" to add credentials\n')
                 choices = input()
                 if choices == 'e':
                     print('Successfuly loged out.\n\n')
