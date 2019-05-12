@@ -31,20 +31,17 @@ This application allows a user to create an account. Login in and save their cre
 * Load gitHub on your browser.
 * Search for Lorddoyo/.... repository.
 * Fork the data onto your own personal repository
-* run 'ng install' on terminal
-* run 'ng serve' on terminal
-* to access the live website,click on this url https://Lorddoyo.github.io/github/
+* Run ./run.py on your terminal
+
 ## known bugs
 
-no bugs
+No bugs
 
 ## Technologies Used
 
-CSS for styling , HTML for webpage design. Typescript for back-end.
+Python3.6
 
-## Dependecies
 
-Angular CLI
 
 ## Support and contact details
 
