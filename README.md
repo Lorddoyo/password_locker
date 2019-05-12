@@ -1,6 +1,6 @@
 # Password Locker
 
-This application allows a user to create an account. Login in and save their credentials for other accounts. They can display all accounts credentials at once, search for a specific account or even delete an account. Written in python and only accessed using the terminal., 02/2019
+This application allows a user to create an account. Login in and save their credentials for other accounts. They can display all accounts credentials at once, search for a specific account or even delete an account. Written in python and only accessed using the terminal. 2019
 
 ## By Adano Godana
 
